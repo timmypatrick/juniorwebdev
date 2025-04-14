@@ -1,0 +1,674 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: rgb(236, 228, 228);
+}
+
+.hero{
+  position: relative;
+  overflow: hidden;
+  height: 85vh;
+  width: 100%;
+}
+
+.hero .office{
+  width: 250%;
+  margin-left: -200px;
+}
+
+.header__hero_text{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+header.mobile{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+}
+
+header.desktop{
+  display: none;
+}
+
+.logo img{
+  width: 100px;
+  cursor: pointer;
+}
+
+.search__open_nav{
+  display: flex;
+  align-items: center;
+}
+
+.search{
+  width: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.open_nav div{
+  width: 20px;
+  height: 2px;
+  margin-bottom: 4px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.hero_text{
+  color: white;
+  text-align: center;
+  font-family: "arial Rounded MT Bold";
+  margin: 30px 20px 0px;
+}
+
+.hero_text h2{
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+.hero_text div{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.discover{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.discover span{
+  background-color: rgb(3, 155, 155);
+  padding: 10px 25px;
+  border-radius: 30px;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.creative_picture__agency{
+  margin: 20px 20px 0px;
+}
+
+.creative_picture img{
+  width: 150px;
+  display: block;
+}
+
+.creative_picture .picture_2{
+  margin: -80px 0px 0px 50px;
+}
+
+.creative_agency{
+  margin-top: 30px;
+}
+
+.creative_solutions{
+  margin: 20px;
+}
+
+.creative_agency .heading, .creative_solutions .heading{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.creative_agency h2, .creative_solutions h2 {
+  font-family: monospace;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.sub_text{
+  color: rgb(82, 81, 81);
+  font-family: monospace;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: justify;
+  max-width: 900px;
+}
+
+.ca__info{
+  display: flex;
+}
+
+.ca_img{
+  margin-right: 20px;
+}
+
+.ca_img img{
+  width: 50px;
+}
+
+.ca_text h3{
+  margin-bottom: 5px;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.read_more{
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 16px;
+  border-bottom: 2px solid black;
+  width: fit-content;
+  padding-bottom: 2px;
+}
+
+.swiper_container{
+  margin: 0px 20px;
+}
+
+.swiper-wrapper {
+  align-items: center;
+} 
+
+.swiper img{
+  width: 100%;
+  display: block;
+}
+
+.subscribe{
+  margin: 30px 20px;
+}
+
+.subscribe h2{
+  font-family: "arial Rounded MT Bold";
+}
+
+.input_submit{
+  margin: 10px 0px;
+}
+
+.input_submit input{
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 150px;
+}
+
+.input_submit button{
+  padding: 10px 20px;
+  background-color: rgb(4, 2, 124);
+  color: white;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+label{
+  color: rgb(82, 81, 81);
+}
+
+label a{
+  color: rgb(82, 81, 81);
+}
+
+.input_text{
+  color: rgb(82, 81, 81);
+  margin-top: 10px;
+}
+
+.testimonial_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  padding: 10px 0 30px;
+
+  overflow: hidden;
+}
+
+.testimonial .image {
+  height: 170px;
+  width: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.testimonial .slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.slide p {
+  text-align: center;
+  padding: 0 50px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+}
+
+.slide .quote-icon {
+  font-size: 30px;
+  color: rgb(17, 153, 139);
+}
+
+.slide .details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details .name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.details .job {
+  font-size: 12px;
+  font-weight: 400;
+  color: #333;
+}
+
+.nav-btn {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  transform: translateY(30px);
+  background-color: white;
+  transition: 0.2s;
+  display: none;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #4070f4;
+}
+
+.service{
+  margin: 20px;
+}
+
+.service_picture .first, .service_picture .second{
+  display: flex;
+}
+
+.service_picture .second{
+  align-items: end;
+  margin-top: -135px;
+}
+
+.service_picture .girl, .service_picture .laptop{
+  width: 180px;
+}
+
+.service_picture .bubble{
+  margin-bottom: -50px;
+}
+
+.service .service_info{
+  margin-top: 50px;
+}
+
+.service_info .heading{
+  font-family: monospace;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.service_info h2{
+  font-family: monospace;
+  margin: 10px 0px;
+}
+
+.discover_now{
+  background-color: rgb(3, 155, 155);
+  width: fit-content;
+  padding: 10px 25px;
+  border-radius: 30px;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.mobile_logos{
+  margin: auto;
+  width: fit-content;
+}
+
+.desktop_logos{
+  display: none;
+}
+
+.mobile_logos img{
+  width: 120px;
+}
+
+.our_blog{
+  text-align: center;
+  font-family: "arial Rounded MT Bold";
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin: 30px 0px 0px;
+}
+
+.latest_articles{
+  text-align: center;
+  font-family: "arial Rounded MT Bold";
+  margin: 10px 0px 30px;
+}
+
+.latest_articles_swiper_container{
+  margin: 0px 20px;
+  overflow: hidden;
+}
+
+.latest_articles_swiper{
+  position: relative;
+}
+
+.latest_articles_swiper_container .swiper-slide:not(:last-child){
+  margin-right: 20px;
+}
+
+.latest_articles_swiper_container img{
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+}
+
+.blog_info{
+  margin: 20px 0px;
+}
+
+.blog_info .heading{
+  font-family: "arial Rounded MT Bold";
+}
+
+.blog_info h3{
+  margin: 15px 0px;
+}
+
+.date_comments{
+  font-size: 14px;
+  color: rgb(82, 81, 81);
+  margin-bottom: 50px;
+}
+
+footer{
+  overflow: hidden;
+}
+
+.footer_hero{
+  background-image: url("Images/footer 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 30px;
+  margin-left: -50px;
+  width: 120%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.hero_content{
+  margin: 150px 20px 0px 70px;
+  color: white;
+}
+
+.country{
+  display: flex;
+  color: rgb(192, 177, 177);
+  margin: 15px 0px 10px;
+  font-size: 14px;
+}
+
+.country div:last-child{
+  margin-left: 10px;
+  margin-top: -7px;
+}
+
+.address{
+  color: rgb(192, 177, 177);
+  /* margin: 15px 0px 10px; */
+  font-size: 14px;
+}
+
+.address div:last-child{
+  margin: 10px 0px 0px;
+}
+
+
+
+@media only screen and (min-width: 700px){
+  header.mobile{
+    display: none;
+  }
+
+  header.desktop{
+    display: block;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  header.desktop .left, header.desktop .left .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header.desktop .left .logo, header.desktop .nav div{
+    margin-right: 20px;
+    padding-bottom: 3px;
+    cursor: pointer;
+
+  }
+
+  header.desktop .home{
+    border-bottom: 1px solid white;
+    padding-bottom: 3px;
+  }
+
+  .pages:hover, .portfolio:hover, .blog:hover, .contacts:hover{
+    border-bottom: 1px solid white;
+  }
+
+  header.desktop .right{
+    background-color: rgb(4, 2, 124);
+    padding: 8px 17px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .hero{
+    position: relative;
+    overflow: hidden;
+    height: 85vh;
+    width: 100%;
+  }
+  
+  .hero .office{
+    width: 250%;
+    margin-left: 0px;
+  }
+
+  .hero{
+    overflow: visible;
+    height: 100vh;
+  }  
+
+  .hero .office{
+    width: 100%;
+    left: 0px;
+  }
+
+  .hero_text{
+    margin-top: 10%;
+  }
+
+  .hero_text h2{
+    font-size: 35px;
+  }
+
+  .creative_picture__agency{
+    margin: -200px 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .creative_picture{
+    margin-right: 50px;
+  }
+
+  .creative_solutions{
+    margin: 20px 100px;
+  }
+
+  .swiper_container{
+    margin: 0px 100px;
+  }
+
+  .swiper img{
+    width: 150px;
+  }
+
+  .subscribe{
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .subscribe h2{
+    flex-basis: 160px;
+  }
+
+  .input_submit input{
+    padding: 10px 20px;
+    width: 220px;
+  }
+
+  .service{
+    margin: 100px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .service_picture{
+    order: 2;
+  }
+
+  .service_info{
+    order: 1;
+    margin-right: 20px;
+    max-width: 500px;
+  }
+
+  .mobile_logos{
+    display: none;
+  }
+  
+  .desktop_logos{
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+  .desktop_logos img{
+    width: 150px;
+  }
+
+  .desktop_logos > div img:not(:last-child){
+    margin-right: 20px;
+  }
+
+  .latest_articles_swiper_container{
+    margin: 0px 100px;
+  }
+}
+
+@media only screen and (min-width: 870px){
+  .creative_picture__agency{
+    margin-top: -100px;
+  }
+
+  .swiper img{
+    width: 200px;
+  }
+
+  .subscribe{
+    justify-content: space-evenly;
+  }
+
+  .subscribe h2{
+    flex-basis: 250px;
+  }
+
+  .input_submit input{
+    padding: 10px 20px;
+    width: 220px;
+  }
+
+  .desktop_logos > div img:not(:last-child){
+    margin-right: 100px;
+  }
+
+  .footer_hero{
+    background-image: url("Images/footer 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    margin-left: -100px;
+    width: 120%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .hero_content{
+    margin: 300px 20px 0px 170px;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 1080px){
+  .creative_picture__agency{
+    margin-top: 0px;
+  }
+
+  .swiper img{
+    width: 270px;
+  }
+
+  .subscribe h2{
+    flex-basis: 350px;
+  }
+}
+
+@media only screen and (min-width: 1280px){
+  .creative_picture__agency{
+    margin-top: 70px;
+  }
+
+  .swiper img{
+    width: 300px;
+  }
+}
